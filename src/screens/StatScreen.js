@@ -1,10 +1,11 @@
 import { View, Text } from 'react-native'
 import React from 'react'
+import Stats from '../components/Stats'
 
 const StatScreen = () => {
   return (
-    <View>
-      <Text>StatScreen</Text>
+    <View style={{flex:1}}>
+    {/* <Stats/> */}
     </View>
   )
 }
